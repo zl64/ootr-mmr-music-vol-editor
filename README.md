@@ -1,2 +1,17 @@
 # ootr-mmr-music-vol-editor
 Very simple OoTR and MMR music file volume editor
+
+## Usage
+Open a terminal in the script's location, then use the following command:
+```
+python -m vol_editor <path to file> <volume>
+```
+#### Arguments
+
+| Argument | Description |
+| --- | --- |
+| `<path to file>` | The path to the `.ootrs` or `.mmrs` file you want to edit. |
+| `<volume>` | The new volume of the `.ootrs` or `.mmrs` file.<br>*The input must be decimal 0-255, hexadecimal 0x00-0xFF, or percent 0%-200%.* |
+
+> [!TIP]
+> You can drag and drop the file you want to edit onto the terminal to append its path to the terminal's text entry.

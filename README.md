@@ -1,5 +1,5 @@
 # ootrs-mmrs-vol-editor
-Very simple OoTR and MMR music file volume editor
+Simple .ootrs and .mmrs file volume editor
 
 ## Usage
 Open a terminal in the script's location, then use the following command:

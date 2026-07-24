@@ -2,6 +2,9 @@
 Simple .ootrs and .mmrs file volume editor
 
 ## Usage
+> [!IMPORTANT]
+> The `seq` folder must be in the same location as the `vol_editor.py` script in order for the script to work.
+
 Open a terminal in the script's location, then use the following command:
 ```
 python -m vol_editor <path to file> <volume>
